@@ -22,16 +22,51 @@ h3 {
 
 
 
-.container {}
+.container {
+    display    : flex;
+    align-items: flex-end;
+    align-items: flex-start;
+    align-items: center;
 
-.container div {
-    background: #718896;
-    border    : 1px solid silver;
-    padding   : 1.6rem;
+    /* flex-direction: row;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+
+    justify-content   : space-between;
+    justify-content   : space-around;
+    /* justify-content: space-evenly; */
+    justify-content   : center;
+
+    /* margin-right: -30px; */
 }
 
-.item-1 {}
+.container div {
+    background : #718896;
+    border : 1px solid silver;
+    padding : 1.6rem;
+    /* flex-basis    : 20%; */
+    /* margin-right  : 30px; */
+}
 
-.item-2 {}
+.item-1 {
+    /* flex: 1; */
+    /* height: 300px; */
+}
 
-.item-3 {}
+.item-2 {
+    /* flex: 2; */
+    /* order: 2; */
+    /* height: 200px; */
+
+}
+
+.item-3 {
+    /* flex: 3; */
+
+    }
+
+@media (max-width: 640px) {
+    .container {
+        flex-direction: column;
+    }
+}
