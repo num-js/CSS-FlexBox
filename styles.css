@@ -1,0 +1,37 @@
+body {
+    margin            : 0;
+    padding           : 0;
+    font-family       : 'Lato';
+    transition        : all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition   : all 1s ease;
+    -ms-transition    : all 1s ease;
+    -o-transition     : all 1s ease;
+    color             : #E2E8F0;
+}
+
+p {
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+h3 {
+    font-weight: 400;
+    margin-top : 0;
+}
+
+
+
+.container {}
+
+.container div {
+    background: #718896;
+    border    : 1px solid silver;
+    padding   : 1.6rem;
+}
+
+.item-1 {}
+
+.item-2 {}
+
+.item-3 {}
